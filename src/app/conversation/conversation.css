@@ -1,0 +1,63 @@
+.userInput,
+.userInput:focus {
+	min-height: 2.5rem !important;
+	font-size: 1rem !important;
+	/* border: none !important; */
+	border-color: #f0f0f0 !important;
+	margin: auto !important;
+	width: 75%;
+	padding: 5px;
+	z-index: 9999;
+	position: absolute;
+	bottom: 2rem;
+}
+.chatMessage {
+	/**/
+}
+.assistant_message {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	font-size: 1rem;
+	border: none;
+	background: #f0f0f0 !important;
+	padding: 2rem;
+}
+.assistant_message > div {
+	justify-content: left;
+	margin-bottom: 3rem;
+}
+.user_message {
+	display: flex;
+	justify-content: Left;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+.sidebarQuesWrapper {
+	display: flex;
+}
+.delbtn {
+	/* background-color: #808080; */
+	width: 20%;
+	font-size: 1rem;
+	padding: 3px;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+	height: 2rem;
+	white-space: nowrap;
+	/* color: azure; */
+	margin-bottom: 5px;
+}
+.sidebarQues {
+	/* background-color: #808080; */
+	width: 80%;
+	font-size: 1rem;
+	padding: 3px;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+	height: 2rem;
+	white-space: nowrap;
+	/* color: azure; */
+	margin-bottom: 5px;
+
+}
