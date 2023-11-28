@@ -30,7 +30,7 @@ export async function POST(request) {
       content: data.question
     }]
   });
-  conversation[id].push({ ...dummyAnswers[Math.floor(Math.random()) * dummyAnswers.length], id: currentTimeStamp });
+  conversation[id].push({ ...dummyAnswers[Math.floor(Math.random() * dummyAnswers.length)], id: currentTimeStamp });
 
   // Do whatever you want
   return NextResponse.json({ conversation: conversation[id], userQuestions: conversation[id].filter(query => query.from === 'user').map(query => query.message[0].content) }, { status: 200 });

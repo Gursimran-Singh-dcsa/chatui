@@ -14,7 +14,7 @@ export const dummyAnswers = [
       {
         type: "code",
         codeLang: 'javascript',
-        content: ["Array.from(new Set(arrayWithDuplicates))"]
+        content: ["Array.from(new Set(arrayWithDuplicates));"]
       },
     ]
   },
@@ -33,7 +33,7 @@ export const dummyAnswers = [
       {
         type: "code",
         codeLang: 'javascript',
-        content: ["let yourArray = [1,2,3]", "yourArray.pop()", "console.log(yourArray)// [1,2]"]
+        content: ["let yourArray = [1,2,3];", "yourArray.pop();", "console.log(yourArray);// [1,2]"]
       },
       {
         type: "text",
@@ -42,7 +42,7 @@ export const dummyAnswers = [
       {
         type: "code",
         codeLang: 'javascript',
-        content: ["let yourArray = [1,2,3]", "yourArray.shift()", "console.log(yourArray)// [2,3]"]
+        content: ["let yourArray = [1,2,3];", "yourArray.shift();", "console.log(yourArray);// [2,3]"]
       },
     ]
   },
